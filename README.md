@@ -9,6 +9,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 ## Build
 
 `ng g component comp1`
+
 `ng g service service1`
 
 ## Install
