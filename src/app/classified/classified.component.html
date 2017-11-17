@@ -1,0 +1,13 @@
+<mat-card>
+  <input type="file" id="input-file-before"
+  (change)="fileEvent($event)">
+  <button mat-raised-button
+  (click)="uploadFile()">Upload</button>
+  <button mat-raised-button
+  (click)="reset()">Reset</button>
+</mat-card>
+
+<mat-card>
+  <mat-spinner *ngIf="showSpinner"></mat-spinner>    
+  <app-display *ngIf="!showSpinner"></app-display>
+</mat-card>
